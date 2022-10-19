@@ -9,7 +9,7 @@ public class Main {
             System.out.println("Значение переменной b с типом byte равно "+b);
         short c=16;
             System.out.println("Значение переменной c с типом short равно "+c);
-        long d=58;
+        long d=587898;
             System.out.println("Значение переменной d с типом long равно "+d);
         float e= (float) 3.8;
             System.out.println("Значение переменной e с типом float равно "+e);
@@ -24,7 +24,7 @@ public class Main {
         short cc=786;
         short hu=27897;
         short ed=-159;
-        long dd=987678965;
+        long dd=987_678_965_549L;
         float vv= (float) 27.12;
         boolean kl=false;
 
@@ -32,21 +32,24 @@ public class Main {
         System.out.println("Задача №3");
         byte LP=23;
         byte AC=27;
-        byte EA=-30;
+        byte EA=30;
 
         System.out.println("На каждого ученика рассчитано "+(480/(LP+AC+EA))+" листов бумаги");
 
             //Задача №4
         System.out.println("Задача №4");
 
-        byte mashza2min=-16;
-        short za20min= (short) (mashza2min*10);
+        int mashin=16;
+        int  proiz=2;
+        int maschinproiz=mashin/proiz;
+
+        int za20min=maschinproiz*20;
         System.out.println("За 20 минут, машины произвела бутылок "+za20min+" штук");
-        short zacyt= (short) (za20min*(24*30));
+        int zacyt=za20min*3*24;
         System.out.println("За 1 сутки, машины произвела бутылок "+zacyt+" штук");
-        short za3dnya= (short) (zacyt*3);
+        int za3dnya=zacyt*3;
         System.out.println("За 3 дня, машины произвела бутылок "+za3dnya+" штук");
-        short zames= (short) (za3dnya*31);
+        int zames=za3dnya*10;
         System.out.println("За 1 месяц, машины произвела бутылок"+zames+"  штук");
 
             //Задача №5
